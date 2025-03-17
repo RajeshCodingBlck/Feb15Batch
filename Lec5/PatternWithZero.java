@@ -20,7 +20,7 @@ public class PatternWithZero {
     		   }else {
     			   System.out.print(0+"\t");
     		   }
-    		   i=i+1
+    		   i=i+1;
     	   }
     	   
     	   // Preparation for Next row
