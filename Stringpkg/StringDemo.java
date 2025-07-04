@@ -40,12 +40,20 @@ public class StringDemo {
 		Scanner s= new Scanner(System.in);
 		
 //		String str3= s.next(); // when we need to take input of word.
-		String str3= s.nextLine(); // when we need to take input of line.
-		System.out.println(str3);
+//		String str3= s.nextLine(); // when we need to take input of line.
+//		System.out.println(str3);
 		
 		
 		
 		
+		String str4= s.next().intern();
+		String str5= s.next().intern();
+		
+		if(str4==str5) {
+			System.out.println("Hum equal he");
+		}else {
+			System.out.println("Hum equal nahi he");
+		}
 		
 		
 		
