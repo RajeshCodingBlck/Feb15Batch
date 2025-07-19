@@ -22,6 +22,9 @@ public class SortTheArray {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
+		
 
 		int [] arr= {6,1,4,2,3};
 		sort(arr, 0);
