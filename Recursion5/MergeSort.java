@@ -55,7 +55,7 @@ public class MergeSort {
 		int mid= (s+e)/2;
 		
 		 int [] left= mergeSort(arr,s, mid );
-		 int [] right= mergeSort(arr, mid+1, e);
+		 int [] right= mergeSort(arr, mid+1,e);
 		 int [] ans= mergeTwoArray(left, right);
 		 return ans;
 		
