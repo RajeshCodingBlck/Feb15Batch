@@ -4,6 +4,7 @@ public class MyLinkedList {
 
 	
 	Node head=null;
+	
 	// Insert AtBegin
 	public void insertAtBegin(int val) {
 		// Creation of New Node
