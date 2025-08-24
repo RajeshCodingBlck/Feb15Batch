@@ -28,11 +28,13 @@ public class MyStack {
 		arr.add(val);
 	}
 	
-	public int pop() {
+	public int pop()  throws Exception{
 		
 		if(isEmpty()) {
-			System.out.println("Stack is Empty");
-			return -1;
+//			System.out.println("Stack is Empty");
+			
+			 Exception e1= new Exception(" Stack khali ho chukka he ");
+			 throw e1;
 		}
 		
 		int val= arr.get(arr.size()-1);

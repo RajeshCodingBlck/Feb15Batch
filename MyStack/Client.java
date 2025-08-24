@@ -2,7 +2,7 @@ package MyStack;
 
 public class Client {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  throws Exception  {
 		// TODO Auto-generated method stub
       
 		MyStack st= new MyStack();
@@ -12,13 +12,28 @@ public class Client {
 		st.push(20);
 		st.push(-1);
 		
-		System.out.println(st.peek());
-		st.pop();
-		System.out.println(st.peek());
-		System.out.println(st.size());
-		st.pop();
-		st.pop();
-		System.out.println(st.peek());
+		try {
+			System.out.println(st.peek());
+			st.pop();
+			System.out.println(st.peek());
+			System.out.println(st.size());
+			st.pop();
+			st.pop();
+			System.out.println(st.peek());
+			st.pop();
+			st.pop();
+			System.out.println(st.peek());
+			
+			int [] arr= new int[5];
+			System.out.println(arr[5]);
+		}catch (Exception e1) {
+			
+			System.out.println("Mene Handle kar diya ");
+		}
+		
+		System.out.println("Hello");
+		
+		
 		
 		
 	}
